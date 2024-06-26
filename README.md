@@ -5,7 +5,7 @@ This code runs in Jupyter notebook v2024.4.0 with VSCode v1.89.1.
 Dataset:
 Need the files 'sent_data_tuple.npy', 'received_data_tuple_sync-phase.npy' that are the dataset to train the VAE.
 The files 'sent_data_tuple.npy2', 'received_data_tuple_sync-phase.npy2' are dataset which I have changed the sample generation at acquisition (from 1MS to 100kS). So, you can use this second dataset to test the model.
-The dataset folder has many other constellations to test (4psk, 16psk and 144psk).
+The dataset folder has many other constellations to test (4qam, 16qam, 256qam).
 The "full-disk" and "full-square" are dataset where I use no constellation, but random I/Q 16bits data normalized between -1 and 1. Where the objective is to cover a big partition of the transmission.
 
 More details about the dataset will be published soon.
